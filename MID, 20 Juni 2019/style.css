@@ -1,0 +1,118 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   /*Set Image Background*/
+   background: #fff url(sample-pattern.png);
+
+}
+
+header {
+   background-color: #FFFFFF;
+   width: 100%;
+   position: fixed;
+   height: 50px;
+}
+
+#logo {
+   float-size:  20px;/* Set Value here */
+   /* Set Padding Top */
+   padding-top: 12px;
+   /* Set Margin Left */
+   padding-left: 12px;
+   /* Set Margin Top */
+   margin-top: 12px auto;
+   /* Set Padding Bottom */
+   padding-bottom: 10px;
+}
+
+nav {
+   float-size: right;/* Set Value here */
+   /* Set Align Text */
+   text-align: right;
+   /* Set Padding Right */
+   padding-right: 14px;
+   /* Set Margin Top */
+   margin-top: 14px ;
+
+}
+
+li {
+   display: inline-block;
+   /* Set Margin Right */
+   margin-right: 14px;
+   /* Set Margin Bottom */
+   margin-bottom: 14px;
+   /* Set Color */
+   color: blue;
+}
+
+a {
+   text-decoration: none;
+   text-align: top;
+
+}
+
+li a {
+   display: block;
+   padding: 10px 15px;
+}
+
+li a:hover {
+   background-color: blue;
+   color: #FFFFFF;
+}
+
+h1 {
+   padding-top: 100px;
+   color: rgb(95, 93, 93);
+   /* Set Align Text */
+   text-align: center;
+   /* Set Margin Bottom */
+   margin-bottom: 13px;
+   /* Set Font Size */
+   font-size: 32px;
+   border-radius: 2px;
+
+}
+
+h3 {
+   /* Set Color */
+   color: blue;
+   /* Set Padding Bottom */
+   padding-bottom: 14px;
+    border-radius: 2px;
+}
+
+#article-list article {
+   /* Set margin */
+   margin: center;
+   /* Set Align Text */
+   text-align: left;
+   /* Set Background color */
+   background-color: white;
+   /* Set Padding */
+   padding: 10px;
+   /* Set margin-bottom */
+   margin-bottom: 5;
+    border-radius: 200;
+    border: 200;
+}
+
+footer {
+   width: auto; /* Set value here */
+   /* Set Background color */
+   background-color: rgba(0, 1, 0, 0.1);
+   /* Set Color */
+   color: black;
+   /* Set Align Text */
+   text-align: center;
+   /* Set Padding */
+   padding: 10px;
+   /* Set font Size */
+   font-size: 15;
+   /* Set Margin Top */
+   margin-top: 40;
+}
